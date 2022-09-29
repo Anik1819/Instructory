@@ -1,0 +1,44 @@
+.footer {
+  background: url(https://instructory.net/assets/images/footer_bg.jpg);
+  margin-top: 20px;
+  padding-top: 50px;
+  color: white;
+  background-size: cover;
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+.logo {
+  width: 200px;
+}
+p {
+  text-align: justify;
+  font-size: 13px;
+}
+li {
+  list-style: none;
+  padding-top: 15px;
+  cursor: pointer;
+}
+li:hover {
+  color: aqua;
+}
+.pn:hover {
+  transform: scale(1.2);
+  color: tomato;
+}
+.footer li::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  background-color: #00a186;
+  display: block;
+
+  transition: 0.5s;
+  cursor: pointer;
+  position: relative;
+}
+li:hover::after {
+  width: 50%;
+}

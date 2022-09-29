@@ -1,0 +1,39 @@
+h3 {
+  font-size: 25px;
+}
+p {
+  font-size: 17px;
+  line-height: 35px;
+  margin-top: 25px;
+}
+.join {
+  background-color: #f5f5f5;
+}
+.Ic {
+  background-color: white;
+  text-align: center;
+  padding: 25px 0;
+  line-height: 30px;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+}
+.Ic button {
+  background-color: #0076a3;
+  border: none;
+  padding: 10px 45px;
+  font-size: 20px;
+  margin-top: 10px;
+  color: aliceblue;
+}
+h4 {
+  font-weight: 600;
+}
+.you-tube {
+  margin-left: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 18px;
+  height: 100%;
+  border-radius: 4px;
+}
